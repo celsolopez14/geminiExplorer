@@ -35,10 +35,13 @@ To be able to use the google cloud services, you first need to auth with your go
     ```bash
     gcloud init
     gcloud auth application-default login
+
 ### Starting Gemini Explorer App
 After the installation, you can start the Gemini Explorer App by simply running the python file. Navigate to the project directory and run:
     ```bash
     streamlit run gemini_explorer.py
+
+After running the previous command, the app will show you the Local URL on the terminal, if it does not open automatically on your browser. Now you can enjoy the chat app!
 
 
 
