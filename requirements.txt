@@ -1,0 +1,3 @@
+pip install google-cloud-aiplatform
+pip install streamlit
+

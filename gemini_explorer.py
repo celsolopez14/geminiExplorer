@@ -4,7 +4,7 @@ import streamlit as st
 from vertexai.preview import generative_models
 from vertexai.preview.generative_models import GenerativeModel, ChatSession, Part, Content
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"replace with you json credential's path"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"D:\Downloads\gemini-explorer-416519-ae17c7986b7e.json"
 
 project_id = os.getenv("PROJECT_ID")
 location = os.getenv("PROJECT_LOCATION")
