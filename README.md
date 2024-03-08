@@ -15,31 +15,36 @@ Include these prerequisites in your installation instructions to ensure that use
 ### Step-by-Step Installation Guide
 1. Clone the repository
     Start by cloning the repository to your local machine. Use the following command:
-    ```bash
-    git clone https://github.com/celsolopez14/geminiExplorer.git
-    cd geminiExplorer
+```bash
+git clone https://github.com/celsolopez14/geminiExplorer.git
+cd geminiExplorer
+```
 
 2. Set Up a Virtual Environment (Optional)
 It's a good practice to create virtual environment when working with Python projects. This keeps your projects dependencies isolated. If you have virtualenv install create a new environment with:
-    ```bash
-    virtualenv env
-    source venv/bin/activate
+```bash
+virtualenv env
+source venv/bin/activate
+```
 
 3. Install Dependencies
 Inside the virtual environment, install all the dependencies necessary by running:
-    ```bash
-    pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
 4. Google Cloud Auth
 To be able to use the google cloud services, you first need to auth with your google cloud credentials. You can do this by running either of the following commands:
-    ```bash
-    gcloud init
-    gcloud auth application-default login
+```bash
+gcloud init
+gcloud auth application-default login
+```
 
 ### Starting Gemini Explorer App
 After the installation, you can start the Gemini Explorer App by simply running the python file. Navigate to the project directory and run:
-    ```bash
-    streamlit run gemini_explorer.py
+```bash
+streamlit run gemini_explorer.py
+```
 
 After running the previous command, the app will show you the Local URL on the terminal, if it does not open automatically on your browser. Now you can enjoy the chat app!
 
