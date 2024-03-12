@@ -1,3 +1,4 @@
-pip install google-cloud-aiplatform
-pip install streamlit
+streamlit==1.32.0
+google-cloud-aiplatform==1.43.0
+vertexai==1.43.0
 
